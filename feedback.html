@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ---------icons------- -->
+    <script src="https://kit.fontawesome.com/fdda8a7430.js" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jquery crousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/jquery.js"></script>
+
+
+    <!-- animations -->
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- text Animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.svg">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <div class="burger-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <header class="secondary-page-header">
+        <div class="container flex justify-content-space">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li>
+                        <a href="meals.html">Meals</a>
+                        <ul class="meal-list">
+                            <li><a href="menu-1-regular-sp.html">Regular</a></li>
+                            <li><a href="menu-2-lunch-sp.html">Lunch</a></li>
+                            <li><a href="menu-3-snacks-sp.html">Snacks</a></li>
+                            <li><a href="menu-4-desserts-sp.html">Desserts</a></li>
+                            <li><a href="menu-5-beverages-sp.html">Beverages</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="catering.html">Catering</a></li>
+                    <li><a href="recipe.html">Recipe Of the Month</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="secondary-page-main">
+        <div class="container">
+            <h4>Feedback</h4>
+                <div class="feedback-container" data-aos = "fade-down" data-aos-duration = "2000">
+                    <form id="feedback-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="visit-date">Date of Visit:</label>
+                        <input type="date" id="visit-date" name="visit-date" required>
+                        <label for="rating">Rating:</label>
+                        <div id="rating">
+                            <input type="radio" id="excellent" name="rating" value="excellent" required>
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" id="good" name="rating" value="good">
+                            <label for="good">Good</label>
+                            <input type="radio" id="fair" name="rating" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" id="poor" name="rating" value="poor">
+                            <label for="poor">Poor</label>
+                        </div>
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments" required></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+           
+        <div class="top-footer">
+            <div class="container">
+                <div class="flex justify-content-space gap-30">
+                    <div>
+                        <h6>Vinger Food</h6>
+                        <p>Vinger Food Restaurant which is the flagship brand of JADONS Ltd has spread over in aroma in this industry over the past few decades. Known as "The serving plates" with 72 different rotating menus and 24000 delicacies throughout the country.</p>
+                    </div>
+                    <div >
+                        <h6>Visit Us</h6>
+                        <p>10 am - 3 am</p>
+                    </div>
+                    <div>
+                        <h6>Follow Us</h6>
+                        <div class="flex gap-20">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>contact</h6>
+                        <ul>
+                            <li class="flex gap-20">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Water Pump Karachi, PK</p>
+                            </li>
+                            <li class="flex gap-20">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto: abc@info.com">abc@info.com</a>
+                            </li>
+                            <li class="flex gap-20">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="dial: +1 321 213 1013">+1 131 131 3071</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>'
+            
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="container flex justify-content-space align-items-center">
+                <ul class="nav-list footer-nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="meals.html">Meals</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="catering.html">Catering</a></li>
+                    <li><a href="recipe.html">Recipe Of the Month</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+
+                <p>jadson ltd &#174;</p>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
